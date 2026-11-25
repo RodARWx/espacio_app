@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter), "Inter", system-ui, -apple-system, sans-serif;
+  --color-espacio-primario: #17324D;
+  --color-espacio-acento: #20A69A;
+  --color-espacio-fondo: #F5F7FA;
+  --color-espacio-superficie: #FFFFFF;
+  --color-espacio-secundario: #6C7A89;
+  --color-espacio-verificacion: #E67E22;
+}
+
+body {
+  background-color: #F5F7FA;
+  color: #17324D;
+}
